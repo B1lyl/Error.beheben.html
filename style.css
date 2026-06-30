@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    color:rgb(227, 115, 125); 
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    border: 3px solid rgb(207, 76, 111); 
+    border-radius: 16px;
+    background-color: rgb(240, 190, 203);
+    width: 1250px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzcsMCwjYjQxODQ3LCNmOWYxZjIsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(180, 24, 71, 0.02),
+  0px 6px 4px rgba(180, 24, 71, 0.03),
+  0px 13px 9px rgba(180, 24, 71, 0.05),
+  0px 24px 15px rgba(180, 24, 71, 0.06),
+  0px 37px 24px rgba(180, 24, 71, 0.08);
+
+
+}
+
+.card-main-info{
+    width: 1200px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.card-side-info{
+    border: 2px solid rgb(210, 73, 86);
+    border-radius: 16px;
+    background-color: rgb(247, 217, 220);
+    width: 240px;
+    height: 72px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzcsMCwjNjUwNjIyLCNmMGJlY2IsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(101, 6, 34, 0.02),
+  0px 6px 4px rgba(101, 6, 34, 0.03),
+  0px 13px 9px rgba(101, 6, 34, 0.05),
+  0px 24px 15px rgba(101, 6, 34, 0.06),
+  0px 37px 24px rgba(101, 6, 34, 0.08);
+
+}
+.card-side-info a {
+    font-size: 10px;
+    line-height: 2.0;
+}
+.herz1{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    z-index: 10;
+}
+
+.herz2{
+    position: absolute;
+    bottom: 75px;
+    right: 30px;
+    z-index: 10;
+}
+
+
+.Card-2-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.Card-2{
+    border: 3px solid rgb(210, 73, 86);
+    border-radius: 16px;
+    background-color: rgb(247, 217, 220);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 300px;
+    padding: 16px;
+
+    /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzcsMCwjNjUwNjIyLCNmMGJlY2IsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(101, 6, 34, 0.02),
+  0px 6px 4px rgba(101, 6, 34, 0.03),
+  0px 13px 9px rgba(101, 6, 34, 0.05),
+  0px 24px 15px rgba(101, 6, 34, 0.06),
+  0px 37px 24px rgba(101, 6, 34, 0.08);
+}
+
+.Schrift-main-info{
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+}
+
+.Schrift-side-info{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.blobcat{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
